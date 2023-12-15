@@ -68,12 +68,17 @@ function HomePage() {
                         key={todo.id}
                         text={todo.text}
                         completed={todo.completed}
-                        onEdit={() => navigate(`/edit/${todo.id}`)}
+                        onEdit={() => navigate(
+                            `/edit/${todo.id}`,
+                            {
+                                state: { todo }
+                            },
+                        )}
                         onComplete={() => completeTodo(todo.id)}
                         onDelete={() => deleteTodo(todo.id)}
                     />
                 )}
-            </TodoList>
+            </TodoList> 
 
             {/* {!!openModal && (
                 <Modal>
@@ -85,8 +90,8 @@ function HomePage() {
             )} */}
 
             <CreateTodoButton
-            onClick={() => navigate("/new")}
-                // setOpenModal={setOpenModal}
+                onClick={() => navigate("/new")}
+            // setOpenModal={setOpenModal}
             />
 
             <ChangeAlert
