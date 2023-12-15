@@ -22,6 +22,7 @@ function TodoForm(props) {
     <form onSubmit={onSubmit}>
       <label>{props.label}</label>
       <textarea
+        disabled={props.loading}
         value={newTodoValue}
         onChange={onChange}
         placeholder="Cortar la cebolla para el almuerzo"
@@ -35,6 +36,7 @@ function TodoForm(props) {
           Cancelar
         </button>
         <button
+          disabled={props.loading}
           type="submit"
           className="TodoForm-button TodoForm-button--add"
         >

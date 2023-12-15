@@ -24,6 +24,7 @@ function EditTodoPage() {
 
     return (
         <TodoForm
+            loading={loading}
             label="Edita tu TODOs"
             defaultTodoText={todoText}
             submitText="Editar"
