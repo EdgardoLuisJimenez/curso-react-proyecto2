@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/static/css/main.bd254fda.css",
+    "main.js": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/static/js/main.7b3ec5fa.js",
+    "index.html": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/index.html",
+    "static/media/delete.svg": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/static/media/delete.331149da222541bc87c25bf8d775a070.svg",
+    "static/media/edit.svg": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/static/media/edit.569363b1fad8252af1f4f6e04345ba2e.svg",
+    "static/media/check.svg": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/static/media/check.fa4fb594b16385306a04b9c87c0feb55.svg",
+    "main.bd254fda.css.map": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/static/css/main.bd254fda.css.map",
+    "main.7b3ec5fa.js.map": "/https//EdgardoLuisJimenez.github.io/curso-react-proyecto2/static/js/main.7b3ec5fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd254fda.css",
+    "static/js/main.7b3ec5fa.js"
+  ]
+}
